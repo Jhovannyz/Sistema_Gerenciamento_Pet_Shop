@@ -1,0 +1,167 @@
+
+<!-- saved from url=(0072)file:///C:/Users/Geovane/AppData/Local/Temp/base7951801354525567797.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><!--<base href="file:/C:/Users/Geovane/OneDrive/Documentos/Atidades%20da%20faculdade/POO/PETSHOP_ERRO/src/main/java/">--><base href="."><title>README</title><style type="text/css">* {
+	 font-family:  Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 120%;
+	font-weight: bold;
+	color: #172f47;
+}
+
+h2 {
+	font-size: 110%;
+	font-weight: bold;
+	color: #172f47;
+}
+
+h3 {
+	font-size: 105%;
+	font-weight: bold;
+	color: #172f47;
+}
+
+h4 {
+	font-weight: bold;
+	color: #172f47;
+}
+
+h5 {
+	font-size: 90%;
+	font-weight: bold;
+	color: #172f47;
+}
+
+h6 {
+	font-size: 80%;
+	font-weight: bold;
+	color: #172f47;
+}
+
+b {
+	font-weight: bold;
+}
+
+strong {
+	font-weight: bold;
+}
+
+i {
+	font-style: italic;
+}
+
+cite {
+	font-style: italic;
+}
+
+em {
+	font-style: italic;
+}
+
+mark {
+	background-color:yellow;
+}
+
+var {
+	font-style: italic;
+}
+
+dfn {
+	font-style: italic;
+}
+
+code {
+	font-family: monospace;
+	color:#4444CC;
+}
+
+pre {
+	font-family: monospace;
+}
+
+/* Java stack traces
+pre.javaStackTrace {
+	font-family: monospace;
+}
+*/
+
+/* sections beginning with -- Error Details --
+pre.eclipseErrorDetails {
+	font-family: monospace;
+}
+*/
+ 
+ins {
+	text-decoration: underline;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+sup {
+	font-size: smaller;
+	vertical-align: super;
+}
+
+a {
+	text-decoration: underline;
+	color: blue;
+}
+
+sup a {
+	text-decoration: none;
+}
+
+sub {
+	font-size: smaller;
+	vertical-align: sub;
+}
+
+dt {
+	font-weight: bold;
+}
+
+blockquote {
+	color: rgb(38, 86, 145);
+}
+
+tt {
+	font-family: monospace;	
+}
+
+q {
+	color: rgb(38, 86, 145);
+}
+
+h1.editorPreview, h2.editorPreview, h3.editorPreview, h4.editorPreview {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  border-bottom: 1px solid #eee;
+}
+
+pre.editorPreview {
+  padding: 16px;
+  overflow: auto;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+  
+table.editorPreview {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-color: grey;
+}
+  
+tr.editorPreview td.editorPreview {
+  border:1px solid #ddd;
+  padding: 6px 13px;
+}
+
+tr.editorPreview th.editorPreview {
+  border:1px solid #ddd;
+  padding: 6px 13px;
+  background-color: #f0f0f0;
+}</style></head><body><h1 id="sistema-de-gerenciamento-para-pet-shop" class="editorPreview">Sistema de Gerenciamento para Pet Shop &#128062;</h1><p class="editorPreview">Sistema desenvolvido em Java (Swing) para gerenciamento completo de um Pet Shop, incluindo cadastro de clientes, pets, serviços e pacotes promocionais, com persistência de dados em arquivos CSV.</p><h2 id="funcionalidades" class="editorPreview">&#128203; Funcionalidades</h2><ul class="editorPreview"><li class="editorPreview"><strong>Gestão de Clientes:</strong> Cadastro, listagem, busca e exclusão.</li><li class="editorPreview"><strong>Gestão de Pets:</strong> Cadastro de animais vinculados a um dono específico.</li><li class="editorPreview"><strong>Agendamento:</strong> Contratação de serviços (Banho, Tosa, etc.) com validação de data futura.</li><li class="editorPreview"><strong>Pacotes Promocionais:</strong> Criação de pacotes com desconto automático.</li><li class="editorPreview"><strong>Dashboard:</strong> Painel principal com menu lateral moderno e atalhos rápidos.</li><li class="editorPreview"><strong>Persistência:</strong> Todos os dados são salvos automaticamente em arquivos <code>.csv</code>.</li></ul><h2 id="tecnologias-utilizadas" class="editorPreview">&#128640; Tecnologias Utilizadas</h2><ul class="editorPreview"><li class="editorPreview"><strong>Linguagem:</strong> Java 11+</li><li class="editorPreview"><strong>Interface Gráfica:</strong> Java Swing (AWT/Swing)</li><li class="editorPreview"><strong>Armazenamento:</strong> Arquivos de texto (.csv)</li><li class="editorPreview"><strong>IDE:</strong> Eclipse</li></ul><h2 id="estrutura-do-projeto" class="editorPreview">&#128194; Estrutura do Projeto</h2><ul class="editorPreview"><li class="editorPreview"><code>src/main/java/com/petshop/gui</code>: Telas e interface visual.</li><li class="editorPreview"><code>src/main/java/com/petshop/model</code>: Classes de dados (Cliente, Pet, Servico, Pacote).</li><li class="editorPreview"><code>src/main/java/com/petshop/service</code>: Lógica de negócios e manipulação de arquivos CSV.</li></ul><h2 id="como-rodar" class="editorPreview">&#9881;&#65039; Como Rodar</h2><ol class="editorPreview"><li class="editorPreview">Clone este repositório.</li><li class="editorPreview">Importe o projeto no Eclipse ou sua IDE de preferência.</li><li class="editorPreview">Execute a classe principal: <code>com.petshop.PetShopApplication.java</code> (ou <code>TelaMenu.java</code>).</li><li class="editorPreview">O sistema criará automaticamente os arquivos <code>.csv</code> na pasta raiz caso não existam.</li></ol><h2 id="autores" class="editorPreview">&#128101; Autores</h2><ul class="editorPreview"><li class="editorPreview">Giovani Silva Rodrigues</li><li class="editorPreview">Lucas de Jesus da Silva</li><li class="editorPreview">Fred Gabriel</li><li class="editorPreview">Gustavo Barbosa </li></ul></body></html>
